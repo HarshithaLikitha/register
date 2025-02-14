@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register Page</title>
+        <style>
+            body{
+                background-image: url('https://img.freepik.com/free-photo/top-view-desk-concept-with-pink-background_23-2148223077.jpg?t=st=1739548154~exp=1739551754~hmac=3c6fece1670eb90e852a2a8c2cbca0a06a945f095de0861f672541d1f1a1f712&w=1060'); 
+                   background-size: cover; /* Makes the image cover the entire page */
+                   background-position: center; /* Centers the image */
+                   background-repeat: no-repeat; /* Prevents repeating */
+                   height: 100vh; /* Full height */
+                text-align: center;
+                font-size: larger;
+                background-color: rgb(253, 190, 255);
+            }
+            form{
+                display: inline-block;
+                text-align: left;
+            }
+            label {
+                display: inline-block;
+                width: 100px;
+                
+            }
+            input {
+                width: 200px;
+                padding: 5px;
+                margin: 5px 0;
+                border: 1px solid gray;
+                border-radius: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Register Form</h2>
+        <form>
+        <label>Firstname:</label>
+        <input type="text" placeholder="Enter your firstname" required>
+        <br><br>
+        <label>Lastname:</label>
+        <input type="text" placeholder="Enter your Lastname" required>
+        <br><br>
+        <label> Date of Birth:</label>
+        <input type="date" required>
+        <br><br>
+        <label>Email:</label>
+        <input type="email" placeholder="Enter email" required>
+        <br><br>
+        <label>Password:</label>
+        <input type="password" placeholder="password" required>
+        <br><br>
+        <button>Submit</button>
+        </form>
+    </body>
+</html>
